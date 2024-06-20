@@ -1,0 +1,30 @@
+.faq-container{
+    padding-top: 2.6rem;
+    width: 100%;
+
+}
+.title-icon-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2.4rem;
+
+}
+.title{
+    font-weight: 600;
+    font-size: 1.8rem;
+    transition: 1ms ease-in;
+    cursor: pointer;
+}
+.description{
+    padding-bottom: 2rem;
+}
+.title:hover{
+    color: rgb(173, 77, 233);
+    transition: 1ms ease-out;
+
+}
+
+section.faq-container:not(:last-child){
+    border-bottom: 1px solid var(--color-light-pink);
+}

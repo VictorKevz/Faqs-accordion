@@ -1,0 +1,14 @@
+.my-footer{
+    position: absolute;
+    bottom: 1px;
+    text-align: center;
+    font-size: 1.5rem;
+    opacity: .7;
+    font-weight: 300;
+}
+a{
+    text-decoration: none;
+    color: rgb(173, 77, 233);
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
