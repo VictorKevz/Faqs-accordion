@@ -7,7 +7,7 @@ function Header() {
   return (
     <header className="header-container">
       <figure>
-        <img src={iconStar} alt="icon-star" />
+        <img src={iconStar} alt="icon-star" className="icon-star" />
       </figure>
       <h1>FAQs</h1>
     </header>
